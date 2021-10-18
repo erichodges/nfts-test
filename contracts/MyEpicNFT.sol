@@ -27,7 +27,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
   // We need to pass the name of our NFTs token and it's symbol.
   constructor() ERC721 ("SquareNFT", "SQUARE") {
-    console.log("This is my NFT contract. Woah!");
+    console.log("This is my NFT contract. Woohoo!");
   }
 
   // I create a function to randomly pick a word from each array.

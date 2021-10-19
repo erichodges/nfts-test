@@ -20,7 +20,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
   // I create three arrays, each with their own theme of random words.
   // Pick some random funny words, names of anime characters, foods you like, whatever! 
-  string[] firstWords = ["glare", "other", "brake", "close", "tower", "issue", "heart", "begin"];
+  string[] firstWords = ["glare", "other", "brake", "close", "tower", "issue", "heart", "begin", "yo dude"];
   string[] secondWords = ["elite", "noble", "bread", "tiger", "drown", "frame", "trunk", "spell", "raise", "shaft"];
   string[] thirdWords = ["steep", "utter", "bench", "small", "stock", "shaft", "alarm", "slant", "deter"];
 

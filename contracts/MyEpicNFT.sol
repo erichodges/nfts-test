@@ -29,7 +29,7 @@ contract MyEpicNFT is ERC721URIStorage {
   constructor() ERC721 ("SquareNFT", "SQUARE") {
     console.log("This is my NFT contract. Woohoo!");
   }
-
+  
   // I create a function to randomly pick a word from each array.
   function pickRandomFirstWord(uint256 tokenId) public view returns (string memory) {
     // I seed the random generator. More on this in the lesson. 
